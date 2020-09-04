@@ -11,9 +11,8 @@ Gem::Specification.new do |s|
   s.description = s.summary = 'jVectorMap for the Rails asset pipeline'
 
   s.platform = Gem::Platform::RUBY
-  s.has_rdoc = true
 
-  s.add_dependency 'railties', '>= 3.1'
+  s.add_dependency 'railties', '~> 5.2'
 
   s.require_path = 'lib'
   s.files = Dir['{lib,vendor,tasks}/**/*', 'Gemfile', 'History.txt', 'LICENSE', 'README.md', 'Rakefile', 'jvectormap-rails.gemspec']
